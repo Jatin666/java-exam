@@ -1,0 +1,66 @@
+C:\Users\kantj\.jdks\openjdk-18\bin\java.exe -Dmaven.multiModuleProjectDirectory=C:\Users\kantj\Desktop\2021f-adv-java-Exam "-Dmaven.home=D:\pass\IntelliJ IDEA 2021.3.3\plugins\maven\lib\maven3" "-Dclassworlds.conf=D:\pass\IntelliJ IDEA 2021.3.3\plugins\maven\lib\maven3\bin\m2.conf" "-Dmaven.ext.class.path=D:\pass\IntelliJ IDEA 2021.3.3\plugins\maven\lib\maven-event-listener.jar" "-javaagent:D:\pass\IntelliJ IDEA 2021.3.3\lib\idea_rt.jar=59275:D:\pass\IntelliJ IDEA 2021.3.3\bin" -Dfile.encoding=UTF-8 -classpath "D:\pass\IntelliJ IDEA 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\pass\IntelliJ IDEA 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license" org.codehaus.classworlds.Launcher -Didea.version=2021.3.3 clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< org.example:2021f-adv-java-Exam >-------------------
+[INFO] Building 2021f-adv-java-Exam 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ 2021f-adv-java-Exam ---
+[INFO] Deleting C:\Users\kantj\Desktop\2021f-adv-java-Exam\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ 2021f-adv-java-Exam ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ 2021f-adv-java-Exam ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\Users\kantj\Desktop\2021f-adv-java-Exam\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ 2021f-adv-java-Exam ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 7 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ 2021f-adv-java-Exam ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to C:\Users\kantj\Desktop\2021f-adv-java-Exam\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ 2021f-adv-java-Exam ---
+[INFO] Surefire report directory: C:\Users\kantj\Desktop\2021f-adv-java-Exam\target\surefire-reports
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.12.4/surefire-junit3-2.12.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.12.4/surefire-junit3-2.12.4.pom (1.7 kB at 5.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.12.4/surefire-providers-2.12.4.pom (2.3 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.12.4/surefire-junit3-2.12.4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.12.4/surefire-junit3-2.12.4.jar (26 kB at 298 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running fr.epita.tests.TestJUN1
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running fr.epita.tests.TestMVD2
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running fr.epita.tests.TestMVD3
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ 2021f-adv-java-Exam ---
+[INFO] Building jar: C:\Users\kantj\Desktop\2021f-adv-java-Exam\target\2021f-adv-java-Exam-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ 2021f-adv-java-Exam ---
+[INFO] Installing C:\Users\kantj\Desktop\2021f-adv-java-Exam\target\2021f-adv-java-Exam-1.0-SNAPSHOT.jar to C:\Users\kantj\.m2\repository\org\example\2021f-adv-java-Exam\1.0-SNAPSHOT\2021f-adv-java-Exam-1.0-SNAPSHOT.jar
+[INFO] Installing C:\Users\kantj\Desktop\2021f-adv-java-Exam\pom.xml to C:\Users\kantj\.m2\repository\org\example\2021f-adv-java-Exam\1.0-SNAPSHOT\2021f-adv-java-Exam-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.005 s
+[INFO] Finished at: 2022-07-20T11:32:15+02:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
